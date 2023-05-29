@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.googleapis.com/css2?family=Popppins:wght@400;600;700@display=swap" rel="stylesheet">
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(130, 130, 195);
+        color: #fff;
+        font-family: 'Poppins',sans-serif;
+    }
+    nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 97px;
+        background: rgb(148, 148, 215);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+
+    }
+    nav ul li{
+        list-style:none;
+        margin:0 23px;
+    }
+    nav ul li a{
+        text-decoration:none;
+        color:#fff
+    }
+    nav ul li a:hover{
+        color: rgb(87, 87, 201);
+        font: size 1.04rem;
+    
+    }
+    main hr{
+        border: 0;
+        background: #754498;
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+    .lef{
+        font: size 1.5rem; ;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0; 
+    }
+    .firstSection div{
+        width: 30%;
+    }
+    .leftSection{
+        font-size: 3rem;
+        
+        
+    }
+    .rightSection img{
+        width:80%;
+        margin:46px 0;
+    }
+    .purple{
+        color:rgb(173, 73, 166)
+    }
+    .text-gray{
+        color:rgb(173, 73, 166);
+        margin: 50px;
+        margin-left: auto;
+    }
+    #element{
+        color: rgb(173, 73, 166);
+    }
+    .secondSection{
+        max-width:80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    .secondSection h1{
+        font-size: 1.9rem;
+    }
+    .secondSection .box{
+        background: #fff;
+        width: 80vw;
+        height: 2px;
+        display: flex;
+        margin-bottom: 56px 0;
+        margin:50px;  
+    }
+    .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: #fff;
+        margin: 0 200px;
+    }
+    .image-top{
+        width:23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+    .vertical-title{
+        position:down;
+        top:10000px;
+        width:150px;
+    }
+    .vertical-desc{
+        position: relative;
+        top:90px;
+        color: gray;
+        width:150px;
+        font-size: 9px;
+    }
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Maihar's Portfolio</div>
+            <div class="right">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <section class ="firstSection">
+            <div class=" leftSection">
+                Hi, My name is <span class="purple">Maihar</span>
+                Shrivastava and passionate about
+                <span id="element"></span>
+
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="female-developer-vector.jpg" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <div class="secondSection">
+
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            
+
+
+            <div class="box">
+                <div class="vertical">
+                    <div class=""vertical-title">
+                        Made Speech Recogniation 
+                        <link rel="stylesheet" href="https://speechrecognition-ruddy.vercel.app/">
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                    <div class=""vertical-title">
+                        Made reactive restaurant menu
+                        <link rel="stylesheet" href="https://speechrecognition-ruddy.vercel.app/">
+                </div>
+                </div>
+                <div class="vertical">
+                        <div class=""vertical-title">
+                            memory game
+                            <link rel="stylesheet" href="https://speechrecognition-ruddy.vercel.app/">
+                        </div>
+                </div>
+                </div>
+                
+<div class="flex">
+    <div class="first"></div>
+    <div class="Secong "></div>
+    <div class="first"></div>
+    <div class="first"></div>
+
+</div>
+                
+
+
+
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Development', 'Machine Learning','Figma','UI/UX'],
+              typeSpeed: 50,
+            });
+          </script>
+    </main>
+</body>
+</html>
